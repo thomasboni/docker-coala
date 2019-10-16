@@ -8,4 +8,4 @@ RUN apk add gcc \
             libxslt-dev \
             python-dev
 
-RUN pip install coala-quickstart
+RUN pip install coala-quickstart==0.4.0
