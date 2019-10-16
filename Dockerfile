@@ -6,6 +6,11 @@ RUN apk add gcc \
             libffi-dev  \
             libxml2-dev \
             libxslt-dev \
-            python-dev
+            python-dev \
+            jpeg-dev
 
-RUN pip install coala-quickstart==0.4.0
+RUN pip install coala-quickstart==0.4.0 \
+                packaging~=16.8 \
+                remark==1.7.6 \
+                travis==0.0.3
+
